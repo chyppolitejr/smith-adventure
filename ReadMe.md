@@ -73,7 +73,7 @@ Back End - Claude and Dempsey
 ![Screenshot](assets/images/Fifth-Page.png)
 ![Screenshot](assets/images/Sixth-Page.png)
 ![Screenshot](assets/images/Seventh-Page.png)
-![Screenshot](Eassets/images/nd-Page.png)
+![Screenshot](assets/images/End-Page.png)
 
 ## License
 
