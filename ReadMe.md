@@ -66,14 +66,14 @@ Back End - Claude and Dempsey
 
 ## Screenshot
 
-![Screenshot](application-screenshot.png)
-![Screenshot](Second-Page.png)
-![Screenshot](Third-Page.png)
-![Screenshot](Fourth-Page.png)
-![Screenshot](Fifth-Page.png)
-![Screenshot](Sixth-Page.png)
-![Screenshot](Seventh-Page.png)
-![Screenshot](End-Page.png)
+![Screenshot](assets/images/application-screenshot.png)
+![Screenshot](assets/images/Second-Page.png)
+![Screenshot](assets/images/Third-Page.png)
+![Screenshot](assets/images/Fourth-Page.png)
+![Screenshot](assets/images/Fifth-Page.png)
+![Screenshot](assets/images/Sixth-Page.png)
+![Screenshot](assets/images/Seventh-Page.png)
+![Screenshot](assets/images/End-Page.png)
 
 ## License
 
