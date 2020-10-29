@@ -8,7 +8,7 @@ $(document).ready(function () {
     "https://cdn-images-1.medium.com/max/1280/1*BArwiczvwUqxWu9OB1e7Sw.png";
   var endPageImg =
     "https://imgix.bustle.com/inverse/ab/5a/e8/e9/8a19/45d7/899b/75356b021017/the-quest-for-szechuan-sauce-has-never-looked-so-sweet.gif";
-    // "https://i.kinja-img.com/gawker-media/image/upload/t_original/vx7nhukveyirfjyzyibn.png";
+  // "https://i.kinja-img.com/gawker-media/image/upload/t_original/vx7nhukveyirfjyzyibn.png";
   var imageArr = [
     "https://c4.wallpaperflare.com/wallpaper/588/5/300/rick-and-morty-toilets-hd-wallpaper-thumb.jpg",
 
@@ -19,10 +19,12 @@ $(document).ready(function () {
     "https://filmdaily.co/wp-content/uploads/2018/06/rick-and-morty-pluto-1024x475.jpg",
     "https://images6.alphacoders.com/909/thumb-1920-909641.png",
   ];
-  var schezwanAudio = new Audio("schezwan-sauce-speech-rick-and-morty-season-3 (1).mp3")
-  var myManAudio = new Audio("my-man.mp3");
+  var schezwanAudio = new Audio(
+    "assets/audio/schezwan-sauce-speech-rick-and-morty-season-3 (1).mp3"
+  );
+  var myManAudio = new Audio("assets/audio/my-man.mp3");
   var evilMortyAudio = new Audio(
-    "rick-and-morty-soundtrack-evil-mortys-theme-qua.mp3"
+    "assets/audio/rick-and-morty-soundtrack-evil-mortys-theme-qua.mp3"
   );
 
   setBgImg(imageUrl);
@@ -60,21 +62,21 @@ $(document).ready(function () {
     getBadAdvice();
     getRickAndMortyChar();
 
-    if (clickCount == 6){
+    if (clickCount == 6) {
       schezwanAudio.play();
       $("#character-cards-group").hide();
       $("#btn-next-world").text("Restart Adventure!");
       setBgImg(endPageImg);
       $("#game-instructions").append(
-        "<p><b>Rick Sanchez :</b> Because that's what this is all about, Morty.<br>"+
-        "<b>Morty Smith :</b> Szechuan?<br>"+
-        "<b>Rick Sanchez :</b> That's my one-armed man! I'm not driven by avenging my dead family, Morty! That was fake. I-I-I'm driven by finding that McNugget sauce.<br>"+
-        "<b>Morty Smith :</b> McNuggets?<br>"+
-        "<b>Rick Sanchez :</b> I want that Mulan McNugget sauce, Morty! That's my series arc, Morty.<br>"+
-        "<b>Morty Smith :</b> What the hell?<br>"+
-        "<b>Rick Sanchez :</b> If it takes nine seasons, I want my McNugget dipping sauce, Szechuan sauce, Morty.<br>"+
-        "<b>Morty Smith :</b> What are you talking about, Rick?<br>"+
-        "<b>Rick Sanchez :</b> That's what's gonna take us all the way to the end, Morty. Season - Nine more seasons, Morty. Nine more seasons until I get that dipping Szechuan sauce. What is that? For 97 more years, Morty! I want that McNugget sauce, Morty.</p>"
+        "<p><b>Rick Sanchez :</b> Because that's what this is all about, Morty.<br>" +
+          "<b>Morty Smith :</b> Szechuan?<br>" +
+          "<b>Rick Sanchez :</b> That's my one-armed man! I'm not driven by avenging my dead family, Morty! That was fake. I-I-I'm driven by finding that McNugget sauce.<br>" +
+          "<b>Morty Smith :</b> McNuggets?<br>" +
+          "<b>Rick Sanchez :</b> I want that Mulan McNugget sauce, Morty! That's my series arc, Morty.<br>" +
+          "<b>Morty Smith :</b> What the hell?<br>" +
+          "<b>Rick Sanchez :</b> If it takes nine seasons, I want my McNugget dipping sauce, Szechuan sauce, Morty.<br>" +
+          "<b>Morty Smith :</b> What are you talking about, Rick?<br>" +
+          "<b>Rick Sanchez :</b> That's what's gonna take us all the way to the end, Morty. Season - Nine more seasons, Morty. Nine more seasons until I get that dipping Szechuan sauce. What is that? For 97 more years, Morty! I want that McNugget sauce, Morty.</p>"
       );
     } else if (clickCount == 7) {
       location.reload();
